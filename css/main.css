@@ -1,1 +1,83 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap);body{background-color:#222;color:#222;font-family:'Inter',sans-serif;font-size:11pt}h1{text-align:center;margin-bottom:35px}#expenseTracker{background-color:aliceblue;border:1px solid #000;border-radius:5px;padding:20px 40px 5px 40px;width:85vw;margin:5vh auto;position:relative;min-height:90vh;box-sizing:border-box}table{width:100%;margin-top:40px;text-align:center}form{text-align:center}p{margin-top:20px;margin-bottom:0;text-align:center;font-size:9pt;position:absolute;bottom:10px;width:100%}.delete{cursor:pointer}
+/* Hintergrund */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container */
+#expenseTracker {
+    background-color: #f5f6fa;
+    padding: 25px;
+    margin-top: 40px;
+    width: 650px;
+    border-radius: 10px;
+}
+
+/* Titel */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formular */
+form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Inputs */
+input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    padding: 6px 12px;
+    border: none;
+    background-color: #0984e3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #74b9ff;
+}
+
+/* Tabelle */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+/* Kopfzeile */
+th {
+    text-align: left;
+    padding: 8px;
+}
+
+/* Zellen */
+td {
+    padding: 8px;
+}
+
+/* Zebra Effekt */
+tr:nth-child(even) {
+    background-color: #dfe6e9;
+}
+
+/* Delete Button */
+td button {
+    background-color: #d63031;
+}
+
+td button:hover {
+    background-color: #ff7675;
+}
